@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin: 5vw;
+}
+
+.container-left img{
+    width: 30vw;
+}
+.container-right{
+    text-align: end;
+}
+.container-right h1{
+    font-size: 96px;
+}
+.container-right button ,.button{
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-right button:hover , .button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 17px black;
+    transition: all 0.5s ease-in-out;
+    border-radius: 3px;
+    font-weight: 600;
+    border: 0.5px solid black;
+}
+
+
+@media screen and (max-width: 750px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-left img{
+        width: 80vw;
+    }
+    .container-right{
+        text-shadow: 1px 1px 8px #5c5656;
+    }
+    main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80vw;
+        margin: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+    .select-number h5 {
+        text-align: center;
+        margin: 15px;
+    }
+}

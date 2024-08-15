@@ -1,0 +1,14 @@
+.button{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    /* min-width: 220px; */
+    /* height:10px; */
+    border-radius: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+    cursor: pointer;
+}
